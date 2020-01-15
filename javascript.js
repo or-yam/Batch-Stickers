@@ -1,3 +1,10 @@
+/*
+Things to add and fix : 
+1. input data validation of batch number , weight and packing type.
+2. dynamic layout
+3. styling and colors
+*/
+
 // Importing all inputs and outputs
 const batchNumber = document.getElementById('batch');
 const batchWeight = document.getElementById('totalWeight');
