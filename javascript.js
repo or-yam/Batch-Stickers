@@ -49,7 +49,7 @@ const calculateExpireDate = (batch, monthsToExpire = 20) => {
   if (expireMonth < 10) {
     expireMonth = '0' + expireMonth;
   }
-  expireDate = expireMonth + '/' + '20' + expireYear;
+  let expireDate = expireMonth + '/' + '20' + expireYear;
   return expireDate;
 };
 
@@ -64,7 +64,7 @@ const onPress = () => {
   stickersAmount.textContent =
     'Number Of Packs: ' +
     stickerAmountCal(stickerWeightCal(packType.value), batchWeight.value);
-    
+
   stickerExpire.textContent =
     'Expire:' + calculateExpireDate(batchNumber.value);
 };
