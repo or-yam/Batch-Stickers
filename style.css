@@ -1,0 +1,100 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #28334aff;
+}
+
+h1 {
+  font-family: Copperplate;
+  font-size: 5em;
+  width: 80%;
+  color: #fbde44ff;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  font-family: Copperplate;
+  font-size: 3em;
+  color: #28334aff;
+  margin: auto;
+}
+
+.main-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  background-color: 28334aff;
+}
+
+.small-box {
+  width: 45%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  background-color: #577399;
+
+  border-radius: 2em;
+}
+
+footer {
+  font-family: Copperplate;
+  font-size: 2em;
+  width: 80%;
+  color: #fbde44ff;
+  text-align: center;
+  margin: auto;
+}
+
+.form-box {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: auto;
+  background-color: rgb(0, 112, 204);
+
+  font-size: 45px;
+  align-items: center;
+}
+
+.form-selection {
+  font-size: 45px;
+}
+
+.sticker-box {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+  background-color: #00a4ccff;
+
+  font-size: 45px;
+}
+
+button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-shadow: none;
+  border-color: black;
+  color: #ffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-weight: 300;
+  padding: auto;
+}

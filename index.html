@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Batch Sticker</title>
+  </head>
+  <body>
+    <h1>Sticker Maker</h1>
+    <div class="main-box">
+      <div class="small-box">
+        <h2>Input Data</h2>
+        <form class="form-box">
+          <div class="form-section">
+            <label>Batch Mark</label>
+            <input
+              type="text"
+              name="number"
+              placeholder="M12201019"
+              id="batch"
+            />
+          </div>
+          <div class="form-section">
+            <label>Total Weight</label>
+            <input id="totalWeight" type="number" name="weight" placeholder="Weight in Kg" />
+          </div>
+          <div class="form-section">
+            <label>Packing</label>
+            <select name="packing" id="packType">
+              <option value="6/8">6/8</option>
+              <option value="30/20">30/20</option>
+              <option value="50/10">50/10</option>
+            </select>
+          </div>
+        </form>
+        <button type="button" id="button" onclick="onPress()">Submit</button>
+      </div>
+
+      <div class="small-box">
+        <h2>
+          sticker
+        </h2>
+        <div class="sticker-box">
+          <div id="stickerWeight" class="sticker-input">Weight: 500gr</div>
+          <div id="stickerBatch" class="sticker-input">Batch: M12121219</div>
+          <div id="stickerUnits" class="sticker-input">50 Units</div>
+          <div id="stickerExpire" class="sticker-input">Expire: 08/2021</div>
+        </div>
+        <h2 id="stickersAmount"></h2>
+      </div>
+    </div>
+    <footer>Fresh Spirulina inc</footer>
+    <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
